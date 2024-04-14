@@ -37,12 +37,16 @@
     background-color: #c9c9c9;
 }
 
-#circle-connection{ 
+.div-border p{ 
     text-align: center;
     font-weight: bold;
     color: black;
 }
-
+.div-border-1 p{
+    text-align: center;
+    font-weight: bold;
+    color: black;
+}
 
 .card-connections-body{
     padding: 30px;
