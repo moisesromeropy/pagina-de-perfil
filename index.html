@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de perfil</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="card-user-style.css">
+    <link rel="stylesheet" href="card-connections.css">
+    <link rel="stylesheet" href="card-education.css">
+</head>
+<body>
+    <header>
+        <div class="nabvar-links">
+            <h1><a href="#">Profile</a></h1>
+            <a href="#">Home</a>
+            <a href="#" class="active">My Profile</a>
+            <a href="#">Find Connection</a>
+        </div>
+        <button class="navbar-btn" id="btn-sign-out">Sign Out</button>
+        
+    </header>
+    <main>
+        <div class="container"> 
+            <div class="card-user">
+                <div id="card-user-header">
+                    <img src="images/jane-m.jpg" id="user-circle" alt="imagen de usuario">
+                </div>
+                <div id="card-user-body">
+                    <h2>Jane Doe</h2>
+                    <div id="container-direction">
+                        <img src="icons/map-marker.png" id="map-marker" alt="icono de un mapa">
+                        <p>Seattle</p>
+                    </div>
+                    <div id="container-skills">
+                        <p>Developer | Engineer | Problem Solver</p>
+                        <p>Master of shadows and the Internet</p>
+                    </div>
+                    <div id="container-edit-profile">
+                        <img src="icons/gear.png" id="gear" alt="icono de una rueda de configuracioon">
+                        <a href="#">edit profile</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card-education">
+                <div id="card-header-education">
+                    <p>Education</p>
+                </div>
+                <div id="card-body-education">
+                   <h2>Coding Dojo - Full Stack Bootcamp</h2>
+                   <p>Dec 2019 - Mar 2020</p>
+                   <p>Triple black belt in Python, MERN, and C#</p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="card-connections">
+                <div class="card-connections-header">
+                    <div class="div-border"><p id="circle-connection">2</p></div>
+                    <p>Connection Requests</p>
+                </div>
+                <div class="card-connections-body">
+                    <div class="conections">
+                        <div class="requests">
+                            <img src="images/todd-s.jpg" alt="icono de usuario" class="user-circle">
+                            <p>Todd E</p>
+                        </div>
+                        <div class="requests">
+                            <img src="icons/accept-circle.png" alt="icono de aceptar" class="icon-accept-or-not">
+                            <img src="icons/close-circle.png" alt="icono de rechazar" class="icon-accept-or-not">
+                        </div>
+                    </div>
+                    <div class="conections">
+                        <div class="requests">
+                            <img src="images/phil-s.jpg" alt="icono de usuario" class="user-circle">
+                            <p>Phil S</p>
+                        </div>
+                        <div class="requests">
+                            <img src="icons/accept-circle.png" alt="icono de aceptar" class="icon-accept-or-not">
+                            <img src="icons/close-circle.png" alt="icono de rechazar" class="icon-accept-or-not">
+                        </div>                    
+                    </div>
+                </div>
+            </div>
+            <div class="card-connections">
+                <div class="card-connections-header">
+                    <div class="div-border-1"><p id="circle-connection">500+</p></div>
+                    <p>Your Connections</p>
+                </div>
+                <div class="card-connections-body">
+                    <div class="conections">
+                        <div class="requests">
+                            <img src="images/adrien-s.jpg" alt="icono de usuario" class="user-circle">
+                            <p>Adrian D</p>
+                        </div>
+                    </div>
+                    <div class="conections">
+                        <div class="requests">
+                            <img src="images/anne-s.jpg" alt="icono de usuario" class="user-circle">
+                            <p>Anne J</p>
+                        </div>               
+                    </div>
+                    <div class="conections">
+                        <div class="requests">
+                            <img src="images/alayne-s.jpg" alt="icono de usuario" class="user-circle">
+                            <p>Alayne J</p>
+                        </div>               
+                    </div>
+                    <div class="conections">
+                        <div class="requests">
+                            <img src="images/arry-s.jpg" alt="icono de usuario" class="user-circle">
+                            <p>Arry Y</p>
+                        </div>               
+                    </div>
+                </div>
+                <div class="card-connections-footer">
+                        <a href="#">View More</a>
+                </div>
+            </div>
+            
+        </div>
+    </main>
+</body>
+</html>

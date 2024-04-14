@@ -1,0 +1,68 @@
+.card-user{
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 300px;
+    border: 2px solid rgb(201, 201, 201);
+    border-radius: 5px;
+}
+#card-user-header{
+    height: 70px;
+    background-color: rgb(13, 165, 224);
+    border: 1px  rgb(13, 165, 224);
+    border-radius:3px;
+    position: relative;
+}
+
+#user-circle{
+    border-radius: 50% ;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    left: 30px;
+    bottom: -30px;
+}
+#card-user-body{
+    margin-top: 10px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+#container-direction{
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+}
+#container-direction p{
+    margin-left: 10px;
+}
+#container-skills{
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+#container-edit-profile{
+    margin-top: 8px;
+    display: flex;
+    flex-direction: row;
+}
+
+#container-edit-profile a{
+    margin-left: 10px;
+    
+}
+
+#map-marker{
+    margin-top: 1px;
+    width: 10px;
+    height: 15px;
+}
+
+#gear{
+    margin-top: 3px;
+    width: 15px;
+    height: 15px;
+}

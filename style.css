@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+header{
+    height: 50px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+header h1{
+    color: whitesmoke;
+    align-items: center;
+}
+
+.nabvar-links{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    
+}
+.nabvar-links a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+#btn-sign-out{
+    margin: 0px;
+    width: 90px;
+    height: 30px;
+    font-weight: bold;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgb(56, 166, 230);
+    color: whitesmoke;
+    box-shadow: 4px 4px 5px 3px rgba(0, 0, 0, 0.75);
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+}
+

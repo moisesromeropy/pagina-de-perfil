@@ -1,0 +1,31 @@
+.card-education{
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 300px;
+    border: 2px solid rgb(201, 201, 201);
+    border-radius: 5px;
+}
+#card-header-education{
+    height: 40px;
+    background-color: rgb(40, 43, 43);
+    border: 1px  rgb(40, 43, 43);
+    border-radius:3px;
+    display: flex;
+    align-items: center;
+}
+
+#card-header-education p{
+    color: whitesmoke;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+
+#card-body-education{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+

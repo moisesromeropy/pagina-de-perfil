@@ -1,0 +1,86 @@
+.card-connections{
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    border: 2px solid rgb(201, 201, 201);
+    border-radius: 5px;
+}
+.card-connections-header{
+    height: 35px;
+    background-color: rgb(40, 43, 43);
+    border: 1px  rgb(40, 43, 43);
+    border-radius:3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.card-connections-header p{
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+
+.div-border{
+    border: 1px solid #c9c9c9;
+    border-radius: 20px;
+    width: 20px;
+    height: 20px;
+    background-color: #c9c9c9;
+}
+.div-border-1{
+    border: 1px solid #c9c9c9;
+    border-radius: 50%;
+    width: 40px;
+    height: 20px;
+    background-color: #c9c9c9;
+}
+
+#circle-connection{ 
+    text-align: center;
+    font-weight: bold;
+    color: black;
+}
+
+
+.card-connections-body{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.conections{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+}
+
+.requests{
+    display: flex;
+    gap: 10px;
+}
+
+.user-circle{
+    width: 30px;
+    height: 30px;
+    border-radius: 50% ;
+}
+
+.icon-accept-or-not{
+    width: 20px;
+    height: 20px;
+}
+.card-connections-footer{
+    border: 1px solid rgb(201, 201, 201);;
+    height: 35px;
+    padding-left: 10px;
+    text-align: start;
+}
+
+.card-connections-footer a{
+    line-height: 30px;
+}
+
+
+
